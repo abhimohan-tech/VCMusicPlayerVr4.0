@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nIam MusicPlayer 2.0 which plays music in Channels and Groups 24*7\n\nI can even Stream Youtube Live in Your Voicechat\n\nDeploy Your Own bot from source code below\n\nHit /help to know about available commands.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\nIam MusicPlayer 2.0 which plays music in FF Group 24*7\n\nI can even Stream Youtube Live in Your Voicechat\n\nHit /help to know about available commands.</b>"
 HELP = """
 <b>Add the bot and User account in your Group with admin rights.
 Start a VoiceChat
@@ -38,12 +38,12 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Animemusicarchive6'),
-        InlineKeyboardButton('🤖 Support Group', url='https://t.me/Yeageristbots'),
+        InlineKeyboardButton('⚙️ Public Channel', url='https://t.me/moviyz'),
+        InlineKeyboardButton('🤖 Our Group', url='https://t.me/new_moviyzz'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Yeageristbotsdev'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/Yeagerist-Music-Streamer-Bot-V3/VCMusicPlayerVr4.0'),
+        InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/rocky_boy01'),
+        InlineKeyboardButton('🧩 Source', url='https://t.me/new_moviyzz'),
     ],
     [
         InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
@@ -59,12 +59,12 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Animemusicarchive6'),
-            InlineKeyboardButton('🤖 Support Group', url='https://t.me/Yeageristbots'),
+            InlineKeyboardButton('⚙️ Public Channel', url='https://t.me/moviyz'),
+            InlineKeyboardButton('🤖 Our Group', url='https://t.me/new_moviyzz'),
         ],
         [
-            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/Yeageristbotsdev'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/Yeagerist-Music-Streamer-Bot-V3/VCMusicPlayerVr4.0'),
+            InlineKeyboardButton('👨🏼‍💻 Developer', url='https://t.me/rocky_boy01'),
+            InlineKeyboardButton('🧩 Source', url='https://t.me/new_moviyzz'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
